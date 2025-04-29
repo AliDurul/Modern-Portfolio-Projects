@@ -18,7 +18,6 @@ export const fetchMovies = async ({ query }: { query: string }) => {
         headers: TMDB_CONFIG.headers
     });
 
-
     if (!res.ok) {
         throw new Error(`Error fetching movies: ${res.statusText}`);
     };
@@ -27,4 +26,24 @@ export const fetchMovies = async ({ query }: { query: string }) => {
 
 
     return data.results;
-}
+};
+
+export const fetchTrendingMovies = async () => {
+
+
+    const res = await fetch(TMDB_CONFIG.BASE_URL + '/trending/movie/day?language=en-US', {
+        method: 'GET',
+        headers: TMDB_CONFIG.headers
+    });
+
+    
+    if (!res.ok) {
+        throw new Error(`Error fetching movies: ${res.statusText}`);
+    };
+    
+    const data = await res.json();
+    
+    console.log('line 46', data);
+
+    return data.results;
+};
