@@ -1,18 +1,19 @@
 import { Link } from "expo-router";
-// import MaskedView from "@react-native-masked-view/masked-view";
+import MaskedView from "@react-native-masked-view/masked-view";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 
 import { images } from "@/constants/images";
 
-const TrendingCard = ({
-  movie: { movie_id, title, poster_url },
-  index,
-}: TrendingCardProps) => {
+const TrendingCard = ({ movie: { id, title, poster_path }, index }: TrendingCardProps) => {
   return (
-    <Link href={`/movie/${movie_id}`} asChild>
+    <Link href={`/movie/${id}`} asChild>
       <TouchableOpacity className="w-32 relative pl-5">
         <Image
-          source={{ uri: poster_url }}
+          source={{
+            uri: poster_path
+              ? `https://image.tmdb.org/t/p/w500${poster_path}`
+              : "https://placehold.co/600x400/1a1a1a/FFFFFF.png",
+          }}
           className="w-32 h-48 rounded-lg"
           resizeMode="cover"
         />
@@ -25,7 +26,7 @@ const TrendingCard = ({
           >
             <Image
               source={images.rankingGradient}
-              className="size-14"
+              className="size-14 w-[65px]"
               resizeMode="cover"
             />
           </MaskedView>
