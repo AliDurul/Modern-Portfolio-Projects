@@ -1,54 +1,92 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  <h3 align="center">A Modern Next.js Portfolio</h3>
 
-## Get started
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
+    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+</div>
 
-   ```bash
-    npx expo start
-   ```
+## 📋 <a name="table">Table of Contents</a>
 
-In the output, you'll find options to open the app in a
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Code to Copy](#snippets)
+6. 🔗 [Assets](#links)
+7. 🚀 [More](#more)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## <a name="introduction">🤖 Introduction</a>
 
-When you're ready, run:
+Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+
+
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js
+- Three.js
+- Framer Motion
+- Tailwind CSS
+
+## <a name="features">🔋 Features</a>
+
+👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
+
+👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
+
+👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+
+👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
+
+👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
+
+👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+
+👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
+
+and many more, including code architecture and reusability 
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run reset-project
+git clone 
+cd Portfolio-FramerMotion
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Installation**
 
-## Learn more
+Install the project dependencies using npm:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Running the Project**
 
-## Join the community
+```bash
+npm run dev
+```
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-
-
-C:\Users\alidr\AppData\Local\Android\Sdk\emulator && emulator -avd Lee
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
