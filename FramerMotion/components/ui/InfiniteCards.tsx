@@ -33,7 +33,7 @@ export const InfiniteMovingCards = ({
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
 
-      scrollerContent.forEach((item) => {
+      scrollerContent?.forEach((item) => {
         const duplicatedItem = item.cloneNode(true);
         if (scrollerRef.current) {
           scrollerRef.current.appendChild(duplicatedItem);
