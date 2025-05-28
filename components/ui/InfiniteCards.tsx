@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -111,7 +111,14 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <div className="me-3">
-                  <img src={item.img } alt="profile" className="rounded-full" />
+                  <Image
+                    src={item.img || "/default-profile.png"}
+                    alt="profile"
+                    className="rounded-full"
+                    width={48}
+                    height={48}
+                    unoptimized={typeof item.img === "undefined"}
+                  />
                 </div>
                 <span className="flex flex-col gap-1">
                   <span className="text-xl font-bold leading-[1.6] text-white">
