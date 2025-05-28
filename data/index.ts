@@ -107,33 +107,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Lee was a fantastic experience. He communicated clearly, delivered on time, and exceeded our expectations with his technical skills.",
+    name: "Sarah Lee",
+    title: "Product Manager at InnovateX",
+    img: "/profile-2.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lee's attention to detail and creative approach helped us launch a beautiful and functional website. Highly recommended!",
+    name: "James Carter",
+    title: "Founder of Carter Solutions",
+    img: "/profile-1.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lee quickly understood our requirements and provided valuable suggestions throughout the project. The end result was exactly what we needed.",
+    name: "Priya Patel",
+    title: "CTO at FinEdge",
+    img: "/profile-3.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Professional, reliable, and talented. Lee made the development process smooth and stress-free for our team.",
+    name: "Lucas Meyer",
+    title: "Operations Lead at BrightPath",
+    img: "/profile-4.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lee's expertise in frontend development brought our vision to life. We appreciated his proactive communication and dedication.",
+    name: "Emily Chen",
+    title: "Marketing Director at GreenLeaf",
+    img: "/profile-5.jpg",
   },
 ];
 
@@ -173,8 +178,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Developer",
+    desc: "Led building and maintaining RESTful APIs using Node.js and Express, focusing on performance and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -182,14 +187,14 @@ export const workExperience = [
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -205,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/AliDurul",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/AliDurul_dev",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/AliDurul/",
   },
 ];
